@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body%}
+    
+        <div id='home'>
+            <h3 id='a'>If You are not Register,Here your are registeration form</h3>
+            <a id='b' href='{% url 'register' %}' class="btn btn-success ">Register</a>
+            <h3 id='c'>Log in here</h3>
+            <a id='d' href='{% url 'login' %}' class="btn btn-success ">Login</a>        
+        </div>
+   
+{% endblock %}
